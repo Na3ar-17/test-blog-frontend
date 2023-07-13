@@ -34,7 +34,7 @@ const postSlice = createSlice({
   initialState,
   reducers: {},
   extraReducers: {
-    // Отримання статей
+    // Отримання дописів
     [fetchPosts.pending]: (state) => {
       state.posts.items = [];
       state.posts.status = "loading";
